@@ -1,40 +1,45 @@
 # DataScience511
 
-#Project Implementation: 
+# Project Implementation: 
 
-Bitcoin_plus_weather_history() is a function that represents data collection and data migration from two data sources: Bitcoin website and DarkSky API. There are five global variables: 
-CITY - Input your city or a city to your liking
-GPS_COORDS - Your city coordinates
-DARKSKY_API_KEY - Use this example DarkSky API Key or gerenate a new DarkSky API Key: https://darksky.net/dev/docs
-START_DATE - Set the beginning of the date range
-END_START - Set the ending of the date range
+Bitcoin_plus_weather_history() is a function that represents data collection and data migration from two data sources: Bitcoin website and DarkSky API. There are five global variables:
+
+* CITY - Input your city or a city to your liking
+* GPS_COORDS - Your city coordinates
+* DARKSKY_API_KEY - Use this example DarkSky API Key or gerenate a new DarkSky API Key: https://darksky.net/dev/docs
+* START_DATE - Set the beginning of the date range
+* END_START - Set the ending of the date range
+
 Once you have configured the global variables to your preference, an output of data elements will be merged from two data sources.
 
-#First dataset from Bitcoin:
-Date - Timestamp on that given day from Bitcoin
-Open - Open value from Bitcoin
-High -  Highest value on that given day from Bitcoin
-Low - Lowest value on that given day from Bitcoin
-Close - Closed value on that given day from Bitcoin
-Volume - Volume value on that given day from Bitcoin
-Market Cap - Total market cap value from Bitcoin
-Second dataset from DarkSky:
-Temperature - The temperature on that given day from DarkSky
+# First dataset from Bitcoin:
+* Date - Timestamp on that given day from Bitcoin
+* Open - Open value from Bitcoin
+* High -  Highest value on that given day from Bitcoin
+* Low - Lowest value on that given day from Bitcoin
+* Close - Closed value on that given day from Bitcoin
+* Volume - Volume value on that given day from Bitcoin
+* Market Cap - Total market cap value from Bitcoin
+
+# Second dataset from DarkSky:
+* Temperature - The temperature on that given day from DarkSky
+
 Summary - Weather summary on that given day from  DarkSky
 
-Merged dataset from Bitcoin and DarkSky:
-Date - Timestamp on that given day from Bitcoin
-Open - Open value from Bitcoin
-High -  Highest value on that given day from Bitcoin
-Low - Lowest value on that given day from Bitcoin
-Close - Closed value on that given day from Bitcoin
-Volume - Volume value on that given day from Bitcoin
-Market Cap - Total market cap value from Bitcoin
-Temperature - The temperature on that given day from DarkSky
+# Merged dataset from Bitcoin and DarkSky:
+* Date - Timestamp on that given day from Bitcoin
+* Open - Open value from Bitcoin
+* High -  Highest value on that given day from Bitcoin
+* Low - Lowest value on that given day from Bitcoin
+* Close - Closed value on that given day from Bitcoin
+* Volume - Volume value on that given day from Bitcoin
+* Market Cap - Total market cap value from Bitcoin
+* Temperature - The temperature on that given day from DarkSky
+
 Summary - Weather summary on that given day from  DarkSky
 
 
-#DataSet Challenges:
+# DataSet Challenges:
 
 A major challenge for using this dataset is that permission for future projects would have to be obtained from CoinMarketCap Legal or pay to use the CMC API. 
 This project did receive legal approval from CMC. 
