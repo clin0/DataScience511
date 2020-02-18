@@ -1,5 +1,7 @@
 # DataScience511
 
+In this project, we are curious whether there is a relationship between the weather and cryptocurrency. We will gather historical data (over the past 10 years) on Philadelphia, PA and Tucson, AZ and glean information on past daily precipitation and high and low temperatures. Meanwhile, we will scrape historical cryptocurrency data for the same period of the weather data. Then, we will merge the weather data to the historical cryptocurrency data to show what the weather was like on each day listed in the crypto currency historical data.
+
 # Project Implementation: 
 
 Bitcoin_plus_weather_history() is a function that represents data collection and data migration from two data sources: Bitcoin website and DarkSky API. There are five global variables:
