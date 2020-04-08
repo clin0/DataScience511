@@ -4,7 +4,7 @@ In this project, we are curious whether there is a relationship between the weat
 
 # Project Implementation: 
 
-Bitcoin_plus_weather_history() is a function that represents data collection and data migration from two data sources: Bitcoin website and DarkSky API. There are five global variables:
+*Bitcoin_plus_weather_history()* is a function that represents data collection and data migration from two data sources: Bitcoin website and DarkSky API. There are five global variables:
 
 * CITY - Input your city or a city to your liking
 * GPS_COORDS - Your city coordinates
